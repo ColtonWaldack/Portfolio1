@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Colton Waldack',
-  subtitle: ' an aspiring software developer',
+  subtitle: "and I'm an aspiring software developer",
   cta: '',
 };
 
@@ -21,13 +21,20 @@ export const aboutData = {
   paragraphOne: 'My name is Colton Waldack, and I am currently studying for my Bachelor of Science in Information Technology. I have a specialization in Computer Science. I am a hardworking person who loves to learn more about all things IT every day. I have had a deep interest in all things computers since I was little. When I was only twelve, I built my first desktop computer. Since then, I built many more desktop computers, and I have moved into software development. ',
   paragraphTwo: ' I have many personal projects with both Java and Python, and I am currently working on a React web application. I have experience in stressful work environments and with meeting hard deadlines, and I always strive to develop my skills and knowledge to make me better at what I am working on. The moments in my life where I have taken on a new task and started learning about something have been the most exciting and fulfilling in my life. Therefore, I search for more of those experiences as often as I can. ',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://marymount0-my.sharepoint.com/:w:/g/personal/caw47685_marymount_edu/ES2oorpnWXFEstql9xSh-KQBPuKIaIrX3qecthkQhrSQoQ?e=pKNZQ0', // if no resume, the button will not show up
 };
 export const examplesData = {
   img: 'ES.jpg',
   paragraphOne: 'At Marymount University I spent some time playing on the MU Esports Team. I played for the Fortnite team and I had a lot of fun competing, practicing, and meeting new people. It was a great experience learning about teamwork and trying hard to win our tournaments.  ',
   paragraphThree: '',
   link: 'https://www.marymountsaints.com/recreation/Club_Sports/ESports/ESports_Info', // if no resume, the button will not show up
+};
+export const awardData = {
+  img: 'award.png',
+  paragraphOne: 'I have always strived to be my best. In the process I have been awarded various commendations. These include both dean’s list, and presidential scholar awards. The varying requirements for each of these rewards can be found at the links below.   ',
+  paragraphThree: '',
+  link: 'https://www.nvcc.edu/apps/1/deanslist/deanslist2203.aspx', // if no resume, the button will not show up
+  link2: 'https://marymount.smartcatalogiq.com/en/2017-2018/Catalogs/Undergraduate-Catalog/Academic-Information-and-Policies/Academic-Honors/Dean-s-List', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -82,11 +89,34 @@ export const writingData = [
   },
   
 ];
+
+// Awards DATA
+export const awardsData = [
+  {
+    id: nanoid(),
+    img: 'nova.PNG',
+    title: 'Northern Virginia Community College ',
+    info: 'At NOVA I was placed on the Dean’s list twice in Spring 2017 and Fall 2019. I also was an honoree of NOVA’s most prestigious recognition, the Presidential Scholar in Spring 2018 and Summer 2020. ',
+    info2: '',
+    url: 'https://www.nvcc.edu/apps/1/deanslist/deanslist2203.aspx',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'mm.PNG',
+    title: 'Marymount University',
+    info: 'At Marymount University I have been placed on the Deans list every semester I have attended. The deans list is Marymount highest term honor. I currently have a GPA of 3.944. I am also a part of Upsilon Pi Epsilon, the information technology honor society ',
+    info2: '',
+    url: 'https://marymount.smartcatalogiq.com/en/2017-2018/Catalogs/Undergraduate-Catalog/Academic-Information-and-Policies/Academic-Honors/Dean-s-List',
+    repo: '', // if no repo, the button will not show up
+  },
+  
+];
 // CONTACT DATA
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'colton.waldack324@gmail.com',
 };
 
 // FOOTER DATA

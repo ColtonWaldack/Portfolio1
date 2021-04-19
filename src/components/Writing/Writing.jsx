@@ -37,7 +37,7 @@ const Writing = () => {
                     left={isDesktop}
                     bottom={isMobile}
                     duration={1000}
-                    delay={500}
+                    delay={450}
                     distance="30px"
                   >
                     <div className="writing-wrapper__text">

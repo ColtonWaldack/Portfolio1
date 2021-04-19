@@ -28,14 +28,14 @@ const Examples = () => {
         <Title title="Extracurricular" />
         <Row className="examples-wrapper">
           <Col md={6} sm={12}>
-            <Fade bottom duration={1000} delay={600} distance="30px">
+            <Fade bottom duration={1000} delay={450} distance="30px">
               <div className="examples-wrapper__image">
                 <ExampleImg alt="profile picture" filename={img} />
               </div>
             </Fade>
           </Col>
           <Col md={6} sm={12}>
-            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={450} distance="30px">
               <div className="examples-wrapper__info">
                 <p className="examples-wrapper__info-text">
                   {paragraphOne ||

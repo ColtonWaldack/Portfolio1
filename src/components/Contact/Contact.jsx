@@ -12,18 +12,18 @@ const Contact = () => {
     <section id="contact">
       <Container>
         <Title title="Contact" />
-        <Fade bottom duration={1000} delay={800} distance="30px">
+        <Fade bottom duration={1000} delay={450} distance="30px">
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
-              {cta || 'Would you like to work with me or reach out? Great'}
+              {cta || 'Would you like to work with me or reach out? Great!'}
             </p>
             <a
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'colton.waldack324@gmail.com'}
+              href={email ? `mailto:${email}` : email}
             >
-              {btn || "Contact me here"}
+              {btn || "Email me here"}
             </a>
           </div>
         </Fade>
